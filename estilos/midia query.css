@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+/*Todas as Demais Midias*/
+
+/*Typical Device Breakpoints    ===  Medidas de Dispositivos
+--------------------------------
+Pequenas Telas ; até 
+CELULAR: de 600px ate 768px
+
+TABLET: de 768px ate 992px
+
+DESKTOP: de 992 ate 1200px
+
+GRANDES TELAS : Acima de 1200px */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#Login{
+        width: 80vw;
+    }
+
+    section#Login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#Login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section#Login{
+        width: 950px;
+    }
+
+    section#Login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#Login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+}
