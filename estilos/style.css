@@ -101,7 +101,7 @@ div.campo > input {
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px; 
-    transform: translateY(-9px);/*Animação transformação deixar no final do seletor. evita problemas de incompatibilidade*/ 
+    transform: translateY(-11px);/*Animação transformação deixar no final do seletor. evita problemas de incompatibilidade*/ 
 }
 
 div.campo > input:focus-within {
